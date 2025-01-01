@@ -20,8 +20,6 @@ CONFIG_BACKUP="/etc/sing-box/configbackup.json"
 # 默认日志文件路径
 LOG_FILE="${LOG_FILE:-/var/log/sing-box-config.log}"
 
-# 重定向输出到日志文件
-exec > >(tee -a "$LOG_FILE") 2>&1
 
 # 获取当前时间
 timestamp() {
