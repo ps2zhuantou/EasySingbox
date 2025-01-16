@@ -54,10 +54,6 @@ if nft list tables | grep -q 'inet sing-box'; then
     nft delete table inet sing-box
 fi
 
-# 清理缓存
-if [ -f "/etc/sing-box/cache.db" ]; then
-    rm -f /etc/sing-box/cache.db
-fi
 
 # 检查网络连接
 check_network() {
