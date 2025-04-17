@@ -10,7 +10,7 @@
 # 配置参数
 BACKEND_URL="http://192.168.10.12:5000"                       # 后端服务器地址
 SUBSCRIPTION_URL=""   # 订阅地址 Clash.Meta(mihomo)
-TEMPLATE_URL="https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/master/config/singbox/config_tun.json"  # 配置模板（确保使用TUN入站）
+TEMPLATE_URL="https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/config/singbox/config_tun.json"  # 配置模板（确保使用TUN入站）
 TUN_PORT=7895                                                 # TUN 端口
 
 # 检查是否以 root 权限运行并且 sing-box 是否已安装
